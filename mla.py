@@ -1,0 +1,10 @@
+source = input("What are you citing from? ")
+if source == "book".lower():
+    print()
+    ln = input("What is the last name? ")
+    fn = input("What is the first name? ")
+    tob = input("What is the title of the book you are citing? ")
+    cop = input("What is the city of publication? ")
+    p = input("Who is the publisher? ")
+    pd = input("What is the publication date? ")
+    print(ln+", "+fn+". "+tob+". "+cop+", "+p+", "+pd)
